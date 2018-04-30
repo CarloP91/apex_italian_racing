@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@homepage')->name('homepage');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/hall_of_fame', 'HomeController@hof')->name('hof');
+Route::get('/eventi', 'HomeController@eventi')->name('eventi');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

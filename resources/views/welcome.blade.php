@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>APEX ITALIAN RACING</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -70,6 +70,16 @@
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                            
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
@@ -77,17 +87,26 @@
                 </div>
             @endif
 
+    
             <div class="content">
+                @yield('logo_air')
+            
+
+            <br>
+            
+
+
+            
                 <div class="title m-b-md">
-                    Laravel
+                    @yield("auto")
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">Regolamento</a>
+                    <a href="https://laracasts.com">Classifica</a>
+                    <a href="https://laravel-news.com">Piloti</a>
+                    <a href="/eventi">Eventi</a>
+                    <a href="/hall_of_fame">Hall of Fame</a>
                 </div>
             </div>
         </div>
