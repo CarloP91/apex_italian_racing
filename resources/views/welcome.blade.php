@@ -84,6 +84,8 @@
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
+
+                 
                 </div>
             @endif
 
@@ -102,13 +104,34 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Regolamento</a>
-                    <a href="https://laracasts.com">Classifica</a>
-                    <a href="https://laravel-news.com">Piloti</a>
+                    <a href="/regolamento">Regolamento</a>
+                    <a href="/classifica">Classifica</a>
+                    <a href="#">Piloti</a>
                     <a href="/eventi">Eventi</a>
                     <a href="/hall_of_fame">Hall of Fame</a>
                 </div>
             </div>
         </div>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+
+        <footer><div class="container-fluid p-3 mb-2 bg-dark text-white">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-8-auto"> <a href="#">Hai un problema e non sai a chi rivolgerti? Clicca qui!</a>  
+
+<br><br>
+
+                                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FApexItalianRacing%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+
+                </div>
+                <div class="col"> ULTIMO VIDEO SU YOUTUBE  <br><br>
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/dNAKecaCvCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+       
+            </div>
+        </div>
+        </footer>
+
     </body>
 </html>

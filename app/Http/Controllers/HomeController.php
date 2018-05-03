@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Users;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+    
         return view('home');
     }
 
@@ -41,5 +43,21 @@ public  function eventi()
     {
         return view('eventi');
 }
+
+public  function evento_classic_1() 
+    {
+        return view('evento_classic_1');
+}
+
+public  function classifica() 
+    {
+        return view('classifica');
+}
+
+public  function regolamento() 
+    {
+        return view('regolamento');
+}
+
 
 }

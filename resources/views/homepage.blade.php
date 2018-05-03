@@ -6,7 +6,7 @@
 <div class="container">
                 <div class="row">
                     <div class="col"></div>
-                    <div class="col-8-auto"><img src="img/bann_sw_air2.0.jpg" alt="Campionato Apex Italian Racing F1 2018 per PC"></div>
+                    <div class="col-8-auto"><img src="img/bann_sw_air2.0.jpg" class="img-fluid" alt="Campionato Apex Italian Racing F1 2018 per PC"></div>
                     <div class="col"></div>
                 </div>
             </div>
@@ -22,12 +22,14 @@
 <div class="container">
 	<div class="row">
 		<div class="col"></div>
-		<div class="col"><img src="img/season2.png"><div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+		<div class="col"><a href=""></a><img src="img/season2.png" class="img-fluid"></a><div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 32%;" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">32%</div>
 </div></div>
 		<div class="col"></div>
 	</div>
 </div>
 @endsection
+
+
 
 

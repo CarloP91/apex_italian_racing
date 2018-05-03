@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('navbar')
+ 
+@endsection
+
 
 @section('content')
 <div class="container">
@@ -23,7 +27,7 @@
    
 
 <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/286x180_fabiuzz.jpg" alt="Card image cap">
+  <img class="card-img-top" src="img/286x180_fabiuzz.jpg" class="img-fluid" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Season 1</h5>
     <p class="card-text">Dopo un campionato <b>PAZZESCO</b>, Fabiuzz riesce a prevalere su Wilscos nell'ultima gara di Abu Dhabi, in una lotta all'ultima curva con Gh3gger.</p>
