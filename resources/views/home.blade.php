@@ -26,8 +26,13 @@
                                 </div>
 
                             <div class="col"> 
+
+                         
+            
+
+                             
                                 
-                                <img style="width: 300px; height: 80px" src="img/Mercedes-F12017.jpg" alt="Merceses F1 2017 di Dominy"></div>
+                                <img style="width: 300px; height: 80px" src="{{ Auth::user()->img_auto_url }}" alt=""></div>
                         </div>
                     </div>
 
@@ -35,56 +40,12 @@
 
 
 
-<div class="container">
-    <div class="row">
-        <div class="col"></div>
 
 
-        <div class="col-8"><table class="table">
-    <B>STATISTICHE PILOTA: SEASON 1</B>
-
- <thead> 
-    <tr>
-    <th scope="col">Dominy</th>
-    <th scope="col">Giri Veloci</th> 
-    <th scope="col">Gare Vinte</th>
-    <th scope="col">Pole Positions</th>
-    <th scope="col">Numero Gare Corse</th> 
-    <th scope="col">Piazzamento Finale in Campionato</th> 
-    <th scope="col">Migliore Posizionamento in Gara</th>
-  </tr>
-</thead>
-  <tbody>
-    <tr >
-      <td>Dominy</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>9</td>
-      <td>11th</td>
-      <td>5th</td>
-    </tr>
-    
-  </tbody>
-
-
-</table></div>
-
-        
-        <div class="col"></div>
-    </div>
-</div>
-    
-                   
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
+<p><li><a href="/piloti/{{ Auth::user()->name }}">Sei un Pilota? Visita la tua Pagina Personale</a></p></li>
+<p><li><a href="/">Se non sei un Pilota, torna alla HomePage e visita la Pagina Piloti e la Classifica</a></p></li>
+<p><li><a href="/contatti">Se non sei un pilota ma vorresti diventarlo, <b>CONTATTACI</b></a></li></p>
+<p><li>Se sei un pilota ma ancora non risulta, contatta i <b>R</b>esponsabili su <b>W</b>hatsapp o <b>D</b>iscord</li></p>
 
 
 

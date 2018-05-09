@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Users;
+use Illuminate\Support\Facades\Storage;
+use App\Driver;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -22,17 +24,13 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-    
-        return view('home');
-    }
+   
 
+    
     public  function homepage() 
     {
         return view('homepage');
-}
-
+    }
     
  public  function hof() 
     {
@@ -49,15 +47,29 @@ public  function evento_classic_1()
         return view('evento_classic_1');
 }
 
-public  function classifica() 
+public  function classifica_piloti() 
     {
-        return view('classifica');
+         { 
+        $driver = Driver::all();
+
+        return view('classifica_piloti', ['drivers' => $driver]);
+}   
 }
+public  function classifica_costruttori() 
+    { 
+         { 
+        $driver = Driver::all();
+
+        return view('classifica_costruttori', ['drivers' => $driver]);
+}   
+
+
+} 
 
 public  function regolamento() 
     {
         return view('regolamento');
+
+           
 }
-
-
 }

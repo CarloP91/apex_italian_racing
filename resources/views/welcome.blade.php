@@ -105,7 +105,7 @@
 
                 <div class="links">
                     <a href="/regolamento">Regolamento</a>
-                    <a href="/classifica">Classifica</a>
+                    <a href="/classifica_piloti">Classifica S. 2</a>
                     <a href="#">Piloti</a>
                     <a href="/eventi">Eventi</a>
                     <a href="/hall_of_fame">Hall of Fame</a>
@@ -118,7 +118,7 @@
         <footer><div class="container-fluid p-3 mb-2 bg-dark text-white">
             <div class="row">
                 <div class="col"></div>
-                <div class="col-8-auto"> <a href="#">Hai un problema e non sai a chi rivolgerti? Clicca qui!</a>  
+                <div class="col-8-auto"> <a href="/contatti">Hai un problema e non sai a chi rivolgerti? Clicca qui!</a>  
 
 <br><br>
 

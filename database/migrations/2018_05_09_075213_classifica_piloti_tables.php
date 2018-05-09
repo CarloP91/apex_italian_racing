@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddUsersFkToImg extends Migration
+class ClassificaPilotiTables extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,8 @@ class AddUsersFkToImg extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-                         $table->unsignedInteger('user_id')->default(1);
-
-    });
-
-        }
+        //
+    }
 
     /**
      * Reverse the migrations.
@@ -27,11 +23,6 @@ class AddUsersFkToImg extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table){
-        $table->dropColumn('user_id');
-   
-    });
-
-   }
-   
-}   
+        //
+    }
+}
