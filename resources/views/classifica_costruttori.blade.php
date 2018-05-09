@@ -82,11 +82,12 @@
       <td><!--img scuderia--><img src="{{$drivers[0]->img_url_auto}}" style="width: 200px; height: 50px"></td>
       <td><!--punti totali--> 
        {{$pt = $drivers[1]->australia + $drivers[0]->australia + 
-                $drivers[1]->bahrain + $drivers[0]->bahrain}} </td></td>
+                $drivers[1]->bahrain + $drivers[0]->bahrain    +
+                 $drivers[1]->china + $drivers[0]->china }} </td></td>
       
-      <td>{{$drivers[0]->australia}}</td>
-      <td>{{$drivers[0]->bahrain}}</td>
-      <td>{{$drivers[0]->china}}</td>
+      <td>{{$drivers[0]->australia + $drivers[1]->australia}}</td>
+      <td>{{$drivers[0]->bahrain + $drivers[1]->bahrain}}</td>
+      <td>{{$drivers[0]->china + $drivers[1]->china}}</td>
       <td>{{$drivers[0]->baku}}</td>
       <td>{{$drivers[0]->spagna}}</td>
       <td>{{$drivers[0]->monaco}}</td>
@@ -113,7 +114,7 @@
       <td><!--img scuderia--><img src="{{$drivers[1]->img_url_auto}}" style="width: 210px; height: 50px"></td>
       <td><!--punti totali--> 
         {{$pt = $drivers[1]->australia + $drivers[0]->australia + 
-                $drivers[1]->bahrain + $drivers[0]->bahrain}} </td></td>
+                $drivers[1]->bahrain   + $drivers[0]->bahrain}} </td></td>
       
       <td>{{$drivers[1]->australia + $drivers[0]->australia}} </td>
       <td>{{$drivers[1]->bahrain}}</td>

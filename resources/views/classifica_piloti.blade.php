@@ -76,17 +76,25 @@
       <th scope="col"><img src="/img/stemmi piste/EAU.png" style="height: 20px; width: 30px;"></th>
    
 
+
+<!--Leggenda Drivers
+0 = Dominy;  1=Ace91;  2=Fabiuzz;
+-->
+
+
+
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row" style="background-color: gold">1</th>
+<!--Dominy-->
       <td><!--img scuderia--><img src="{{$drivers[0]->img_url_auto}}" style="width: 200px; height: 50px"></td>
       <td><!--numero pilota-->10</td>
       <td><!--nome pilota-->  {{$drivers[0]->name_driver}}</td>
-      <td><!--punti totali--> {{$pt = $drivers[0]->australia + $drivers[0]->bahrain}} </td></td>
+      <td><!--punti totali--> {{$pt = $drivers[0]->australia + $drivers[0]->bahrain + $drivers[0]->china}} </td></td>
       
-      <td>{{$drivers[0]->australia}}</td>
+      <td style="background-color: gold">{{$drivers[0]->australia}}</td>
       <td>{{$drivers[0]->bahrain}}</td>
       <td>{{$drivers[0]->china}}</td>
       <td>{{$drivers[0]->baku}}</td>
@@ -112,14 +120,15 @@
 
     <tr>
       <th scope="row" style="background-color: silver">2</th>
+<!--Ace91-->
       <td><!--img scuderia--><img src="{{$drivers[1]->img_url_auto}}" style="width: 210px; height: 50px"></td>
       <td><!--numero pilota-->55</td>
       <td><!--nome pilota-->  {{$drivers[1]->name_driver}}</td>
-      <td><!--punti totali--> {{$pt = $drivers[1]->australia + $drivers[1]->bahrain}} </td></td>
+      <td><!--punti totali--> {{$pt = $drivers[1]->australia + $drivers[1]->bahrain + $drivers[1]->china}} </td></td>
       
       <td>{{$drivers[1]->australia}}</td>
-      <td>{{$drivers[1]->bahrain}}</td>
-      <td>{{$drivers[1]->china}}</td>
+      <td style="background-color: #cd7f32">{{$drivers[1]->bahrain}}</td>
+      <td style="background-color: silver">{{$drivers[1]->china}}</td>
       <td>{{$drivers[1]->baku}}</td>
       <td>{{$drivers[1]->spagna}}</td>
       <td>{{$drivers[1]->monaco}}</td>
@@ -143,10 +152,11 @@
 
     <tr>
       <th scope="row" style="background-color: #cd7f32">3</th>
+<!--Fabiuzz-->
       <td><!--img scuderia--><img src="{{$drivers[2]->img_url_auto}}" style="width: 200px; height: 50px"></td>
       <td><!--numero pilota-->220</td>
       <td><!--nome pilota-->  {{$drivers[2]->name_driver}}</td>
-      <td><!--punti totali--> {{$pt = $drivers[2]->australia + $drivers[2]->bahrain}} </td></td>
+      <td><!--punti totali--> {{$pt = $drivers[2]->australia + $drivers[2]->bahrain + $drivers[2]->china}} </td></td>
       
       <td>{{$drivers[2]->australia}}</td>
       <td>{{$drivers[2]->bahrain}}</td>

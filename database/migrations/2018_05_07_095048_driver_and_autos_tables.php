@@ -15,7 +15,7 @@ class DriverAndAutosTables extends Migration
     {
         Schema::create('drivers', function (Blueprint $table) {
 
-
+            $table->increments('id');
             $table->string('name_driver');
             $table->string('img_url_auto');
             $table->string('name_team')->nullable();
