@@ -23,7 +23,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col"></div>
-		<div class="col"><a href=""></a><img src="img/season2.png" class="img-fluid"></a><div class="progress">
+		<div class="col"><a href=""></a><img src="img/season2.PNG" class="img-fluid"></a><div class="progress">
   <div class="progress-bar" role="progressbar" style="width: 41%;" aria-valuenow="41" aria-valuemin="0" aria-valuemax="100">41%</div>
 </div></div>
 		<div class="col"></div>
