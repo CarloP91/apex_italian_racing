@@ -8,6 +8,18 @@
 
 
 
+
+</head>
+<body>
+
+<!--<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-8-auto"><iframe style="width:1000px; height: 650px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWx1v1toY4vgf4S8LlZeocNCCMmvFE5NdFyBHWrhkDRfeh5agT7N5pehnvMDAq3yRiYNVkhZXo7p71/pubhtml?widget=true&amp;headers=false"></iframe></div>
+        <div class="col">
+    </div>
+</div>-->
+
 <div class="container">
                 <div class="row">
                     <div class="col"></div>
@@ -24,19 +36,8 @@
             </div>
 <br><br>
 
-</head>
-<body>
 
-<!--<div class="container">
-    <div class="row">
-        <div class="col"></div>
-        <div class="col-8-auto"><iframe style="width:1000px; height: 650px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWx1v1toY4vgf4S8LlZeocNCCMmvFE5NdFyBHWrhkDRfeh5agT7N5pehnvMDAq3yRiYNVkhZXo7p71/pubhtml?widget=true&amp;headers=false"></iframe></div>
-        <div class="col">
-    </div>
-</div>-->
-
-
-<div class="container-fluid" >
+<div class="container-fluid" style=" margin-left: 0px" >
   
      
 
@@ -276,6 +277,8 @@
 
 
 </div>
+
+
 
 </body>
 </html>
