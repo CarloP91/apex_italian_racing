@@ -129,7 +129,7 @@
       
       <td>{{$drivers[1]->australia}}</td>
       <td style="background-color: #cd7f32">{{$drivers[1]->bahrain}}</td>
-      <td style="background-color: silver">{{$drivers[1]->china}}</td>
+      <td>{{$drivers[1]->china}}</td>
       <td>{{$drivers[1]->baku}}</td>
       <td>{{$drivers[1]->spagna}}</td>
       <td>{{$drivers[1]->monaco}}</td>
@@ -191,8 +191,8 @@
       <td><!--nome pilota-->  {{$drivers[3]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[3]->australia + $drivers[3]->bahrain + $drivers[3]->china}} </td></td>
       
-      <td>{{$drivers[3]->australia}}</td>
-      <td>{{$drivers[3]->bahrain}}</td>
+      <td style="background-color: #cd7f32">>{{$drivers[3]->australia}}</td>
+      <td style="background-color: silver">{{$drivers[3]->bahrain}}</td>
       <td>{{$drivers[3]->china}}</td>
       <td>{{$drivers[3]->baku}}</td>
       <td>{{$drivers[3]->spagna}}</td>
