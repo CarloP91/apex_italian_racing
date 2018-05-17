@@ -3,7 +3,7 @@
 
 @section('content')
 
-<link rel="stylesheet" type="text/css" href="css/regolamento.css">
+
 
 <div class="container">
 
