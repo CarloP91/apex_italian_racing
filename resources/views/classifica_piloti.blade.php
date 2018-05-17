@@ -184,7 +184,7 @@
     </tr>
 
     <tr>
-      <th scope="row" style="background-color: #cd7f32">4</th>
+      <th scope="row">4</th>
 <!--Fabiuzz-->
       <td><!--img scuderia--><img src="{{$drivers[3]->img_url_auto}}" style="width: 200px; height: 50px"></td>
       <td><!--numero pilota-->20</td>
