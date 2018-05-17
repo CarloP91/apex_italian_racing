@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
 @section('content')
 
 
