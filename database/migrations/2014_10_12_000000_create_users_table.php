@@ -16,7 +16,7 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('email, 250')->unique();
             $table->string('password');
             $table->string('img_auto_url')->default('/img/Auto2018/Unk-F12018.png');
             $table->rememberToken();
