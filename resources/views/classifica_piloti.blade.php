@@ -159,8 +159,8 @@
       <td><!--nome pilota-->  {{$drivers[2]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[2]->australia + $drivers[2]->bahrain + $drivers[2]->china}} </td></td>
       
-      <td>{{$drivers[2]->australia}}</td>
-      <td>{{$drivers[2]->bahrain}}</td>
+      <td style="background-color: #cd7f32">{{$drivers[2]->australia}}</td>
+      <td style="background-color: silver">{{$drivers[2]->bahrain}}</td>
       <td>{{$drivers[2]->china}}</td>
       <td>{{$drivers[2]->baku}}</td>
       <td>{{$drivers[2]->spagna}}</td>
@@ -191,8 +191,8 @@
       <td><!--nome pilota-->  {{$drivers[3]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[3]->australia + $drivers[3]->bahrain + $drivers[3]->china}} </td></td>
       
-      <td style="background-color: #cd7f32">>{{$drivers[3]->australia}}</td>
-      <td style="background-color: silver">{{$drivers[3]->bahrain}}</td>
+      <td>{{$drivers[3]->australia}}</td>
+      <td>{{$drivers[3]->bahrain}}</td>
       <td>{{$drivers[3]->china}}</td>
       <td>{{$drivers[3]->baku}}</td>
       <td>{{$drivers[3]->spagna}}</td>
