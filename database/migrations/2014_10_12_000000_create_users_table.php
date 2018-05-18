@@ -19,6 +19,8 @@ class CreateUsersTable extends Migration
             $table->string('email');
             $table->string('password');
             $table->string('img_auto_url')->default('/img/auto2018/Unk-F12018.png');
+            $table->string('tipo_profilo')->default('Guess');
+            $table->string('season')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
