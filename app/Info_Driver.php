@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Classifica extends Model
+class Info_Driver extends Model
 {
-     
+    //
 }

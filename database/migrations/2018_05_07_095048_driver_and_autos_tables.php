@@ -20,6 +20,8 @@ class DriverAndAutosTables extends Migration
             $table->string('img_url_auto');
             $table->string('name_team')->nullable();
             $table->string('img_driver_url');
+            $table->string('winned_championship')->nullable();;
+            $table->string('fast_lap')->nullable();;
 
             $table->string('australia')->nullable();
             $table->string('bahrain')->nullable();

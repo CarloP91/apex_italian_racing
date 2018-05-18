@@ -27,10 +27,7 @@
                                 </div>
 
                             <div class="col"> 
-
-                         
             
-
                              
                                 
                                 <img style="width: 300px; height: 80px" src="{{ Auth::user()->img_auto_url }}" alt="">
