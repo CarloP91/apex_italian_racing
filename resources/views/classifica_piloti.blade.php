@@ -82,6 +82,10 @@
 0 = Dominy;  1=Ace91;  2=Fabiuzz;
 -->
 
+<!-- Colori
+  Oro     = style="background-color: gold"
+  Argento = style="background-color: silver"
+  Bronzo  = style="background-color: #cd7f32" -->
 
 
     </tr>
@@ -95,7 +99,7 @@
       <td><!--nome pilota-->  {{$drivers[0]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[0]->australia + $drivers[0]->bahrain + $drivers[0]->china}} </td></td>
       
-      <td style="background-color: gold">{{$drivers[0]->australia}}</td>
+      <td>{{$drivers[0]->australia}}</td>
       <td>{{$drivers[0]->bahrain}}</td>
       <td>{{$drivers[0]->china}}</td>
       <td>{{$drivers[0]->baku}}</td>
@@ -128,7 +132,7 @@
       <td><!--punti totali--> {{$pt = $drivers[1]->australia + $drivers[1]->bahrain + $drivers[1]->china}} </td></td>
       
       <td>{{$drivers[1]->australia}}</td>
-      <td style="background-color: #cd7f32">{{$drivers[1]->bahrain}}</td>
+      <td>{{$drivers[1]->bahrain}}</td>
       <td>{{$drivers[1]->china}}</td>
       <td>{{$drivers[1]->baku}}</td>
       <td>{{$drivers[1]->spagna}}</td>
@@ -159,8 +163,8 @@
       <td><!--nome pilota-->  {{$drivers[2]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[2]->australia + $drivers[2]->bahrain + $drivers[2]->china}} </td></td>
       
-      <td style="background-color: #cd7f32">{{$drivers[2]->australia}}</td>
-      <td style="background-color: silver">{{$drivers[2]->bahrain}}</td>
+      <td>{{$drivers[2]->australia}}</td>
+      <td>{{$drivers[2]->bahrain}}</td>
       <td>{{$drivers[2]->china}}</td>
       <td>{{$drivers[2]->baku}}</td>
       <td>{{$drivers[2]->spagna}}</td>
