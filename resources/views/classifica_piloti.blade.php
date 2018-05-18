@@ -267,7 +267,7 @@
     </tr>
     <tr>
       <th scope="row">15</th>
-      <td><img src="  " style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
