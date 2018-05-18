@@ -98,17 +98,17 @@
 
     <tr>
       <th scope="row" style="background-color: silver">2</th>
-  @include('viewclass.Ace91')
+  @include('viewclass.ace91')
     </tr>
 
     <tr>
       <th scope="row" style="background-color: #cd7f32">3</th>
-  @include('viewclass.Fabiuzz')
+  @include('viewclass.fabiuzz')
     </tr>
 
     <tr>
       <th scope="row">4</th>
-  @include('viewclass.Chris91')
+  @include('viewclass.chris91')
     </tr>
 
     <tr>
