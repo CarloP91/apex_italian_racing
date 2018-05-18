@@ -19,9 +19,10 @@
 
                     <div class="container">
                         <div class="row">
-                            <div class="col">  <h2>Benvenuto {{ Auth::user()->name }}</h2> </div>
+                            <div class="col">  <h2>Benvenuto {{ Auth::user()->name }}</h2> 
+
                               
-                                
+                                </div>
                             <div class="col">
                                 </div>
 
@@ -32,7 +33,9 @@
 
                              
                                 
-                                <img style="width: 300px; height: 80px" src="{{ Auth::user()->img_auto_url }}" alt=""></div>
+                                <img style="width: 300px; height: 80px" src="{{ Auth::user()->img_auto_url }}" alt="">
+                            <br><p align="center"><b>PROFILO:</b> {{ Auth::user()->tipo_profilo }} {{ Auth::user()->season }} </p>
+                        </div>
                         </div>
                     </div>
 
