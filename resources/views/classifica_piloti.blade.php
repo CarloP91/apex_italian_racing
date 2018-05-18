@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AIR</title>
+    <title>APEX ITALIAN RACING</title>
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
@@ -93,130 +93,22 @@
   <tbody>
     <tr>
       <th scope="row" style="background-color: gold">1</th>
-  <!--Dominy-->
-      <td><!--img scuderia--><img src="{{$drivers[0]->img_url_auto}}" style="width: 200px; height: 50px"></td>
-      <td><!--numero pilota-->10</td>
-      <td><!--nome pilota-->  {{$drivers[0]->name_driver}}</td>
-      <td><!--punti totali--> {{$pt = $drivers[0]->australia + $drivers[0]->bahrain + $drivers[0]->china}} </td></td>
-      
-      <td>{{$drivers[0]->australia}}</td>
-      <td>{{$drivers[0]->bahrain}}</td>
-      <td>{{$drivers[0]->china}}</td>
-      <td>{{$drivers[0]->baku}}</td>
-      <td>{{$drivers[0]->spagna}}</td>
-      <td>{{$drivers[0]->monaco}}</td>
-      <td>{{$drivers[0]->canada}}</td>
-      <td>{{$drivers[0]->francia}}</td>
-      <td>{{$drivers[0]->austria}}</td>
-      <td>{{$drivers[0]->uk}}</td>
-      <td>{{$drivers[0]->germania}}</td>
-      <td>{{$drivers[0]->ungheria}}</td>
-      <td>{{$drivers[0]->belgio}}</td>
-      <td>{{$drivers[0]->italia}}</td>
-      <td>{{$drivers[0]->singapore}}</td>
-      <td>{{$drivers[0]->russia}}</td>
-      <td>{{$drivers[0]->suzuka}}</td>
-      <td>{{$drivers[0]->usa}}</td>
-      <td>{{$drivers[0]->messico}}</td>
-      <td>{{$drivers[0]->brasile}}</td>
-      <td>{{$drivers[0]->eau}}</td>
-
+  @include('viewclass.Dominy')
     </tr>
 
     <tr>
       <th scope="row" style="background-color: silver">2</th>
-<!--Ace91-->
-      <td><!--img scuderia--><img src="{{$drivers[1]->img_url_auto}}" style="width: 210px; height: 50px"></td>
-      <td><!--numero pilota-->25</td>
-      <td><!--nome pilota-->  {{$drivers[1]->name_driver}}</td>
-      <td><!--punti totali--> {{$pt = $drivers[1]->australia + $drivers[1]->bahrain + $drivers[1]->china}} </td></td>
-      
-      <td>{{$drivers[1]->australia}}</td>
-      <td>{{$drivers[1]->bahrain}}</td>
-      <td>{{$drivers[1]->china}}</td>
-      <td>{{$drivers[1]->baku}}</td>
-      <td>{{$drivers[1]->spagna}}</td>
-      <td>{{$drivers[1]->monaco}}</td>
-      <td>{{$drivers[1]->canada}}</td>
-      <td>{{$drivers[1]->francia}}</td>
-      <td>{{$drivers[1]->austria}}</td>
-      <td>{{$drivers[1]->uk}}</td>
-      <td>{{$drivers[1]->germania}}</td>
-      <td>{{$drivers[1]->ungheria}}</td>
-      <td>{{$drivers[1]->belgio}}</td>
-      <td>{{$drivers[1]->italia}}</td>
-      <td>{{$drivers[1]->singapore}}</td>
-      <td>{{$drivers[1]->russia}}</td>
-      <td>{{$drivers[1]->suzuka}}</td>
-      <td>{{$drivers[1]->usa}}</td>
-      <td>{{$drivers[1]->messico}}</td>
-      <td>{{$drivers[1]->brasile}}</td>
-      <td>{{$drivers[1]->eau}}</td>
-      
+  @include('viewclass.Ace91')
     </tr>
 
     <tr>
       <th scope="row" style="background-color: #cd7f32">3</th>
-<!--Fabiuzz-->
-      <td><!--img scuderia--><img src="{{$drivers[2]->img_url_auto}}" style="width: 200px; height: 50px"></td>
-      <td><!--numero pilota-->96</td>
-      <td><!--nome pilota-->  {{$drivers[2]->name_driver}}</td>
-      <td><!--punti totali--> {{$pt = $drivers[2]->australia + $drivers[2]->bahrain + $drivers[2]->china}} </td></td>
-      
-      <td>{{$drivers[2]->australia}}</td>
-      <td>{{$drivers[2]->bahrain}}</td>
-      <td>{{$drivers[2]->china}}</td>
-      <td>{{$drivers[2]->baku}}</td>
-      <td>{{$drivers[2]->spagna}}</td>
-      <td>{{$drivers[2]->monaco}}</td>
-      <td>{{$drivers[2]->canada}}</td>
-      <td>{{$drivers[2]->francia}}</td>
-      <td>{{$drivers[2]->austria}}</td>
-      <td>{{$drivers[2]->uk}}</td>
-      <td>{{$drivers[2]->germania}}</td>
-      <td>{{$drivers[2]->ungheria}}</td>
-      <td>{{$drivers[2]->belgio}}</td>
-      <td>{{$drivers[2]->italia}}</td>
-      <td>{{$drivers[2]->singapore}}</td>
-      <td>{{$drivers[2]->russia}}</td>
-      <td>{{$drivers[2]->suzuka}}</td>
-      <td>{{$drivers[2]->usa}}</td>
-      <td>{{$drivers[2]->messico}}</td>
-      <td>{{$drivers[2]->brasile}}</td>
-      <td>{{$drivers[2]->eau}}</td>
-      
+  @include('viewclass.Fabiuzz')
     </tr>
 
     <tr>
       <th scope="row">4</th>
-<!--Chris91-->
-      <td><!--img scuderia--><img src="{{$drivers[3]->img_url_auto}}" style="width: 200px; height: 50px"></td>
-      <td><!--numero pilota-->46</td>
-      <td><!--nome pilota-->  {{$drivers[3]->name_driver}}</td>
-      <td><!--punti totali--> {{$pt = $drivers[3]->australia + $drivers[3]->bahrain + $drivers[3]->china}} </td></td>
-      
-      <td>{{$drivers[3]->australia}}</td>
-      <td>{{$drivers[3]->bahrain}}</td>
-      <td>{{$drivers[3]->china}}</td>
-      <td>{{$drivers[3]->baku}}</td>
-      <td>{{$drivers[3]->spagna}}</td>
-      <td>{{$drivers[3]->monaco}}</td>
-      <td>{{$drivers[3]->canada}}</td>
-      <td>{{$drivers[3]->francia}}</td>
-      <td>{{$drivers[3]->austria}}</td>
-      <td>{{$drivers[3]->uk}}</td>
-      <td>{{$drivers[3]->germania}}</td>
-      <td>{{$drivers[3]->ungheria}}</td>
-      <td>{{$drivers[3]->belgio}}</td>
-      <td>{{$drivers[3]->italia}}</td>
-      <td>{{$drivers[3]->singapore}}</td>
-      <td>{{$drivers[3]->russia}}</td>
-      <td>{{$drivers[3]->suzuka}}</td>
-      <td>{{$drivers[3]->usa}}</td>
-      <td>{{$drivers[3]->messico}}</td>
-      <td>{{$drivers[3]->brasile}}</td>
-      <td>{{$drivers[3]->eau}}</td>
-      
+  @include('viewclass.Chris91')
     </tr>
 
     <tr>
