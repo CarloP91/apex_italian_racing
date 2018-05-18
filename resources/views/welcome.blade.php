@@ -117,16 +117,23 @@
 
         <footer><div class="container-fluid p-3 mb-2 bg-dark text-white">
             <div class="row">
-                <div class="col"></div>
-                <div class="col-8-auto"> <a href="/contatti">Hai un problema e non sai a chi rivolgerti? Clicca qui!</a>  
+                <div class="col-4"><p align="center">APEX ITALIAN RACING</p>
+                    <p style="text-align:justify">AIR è un gruppo di appassionati per la Formula 1 e l'automobilismo in generale. Insieme gareggiamo e ci affrontiamo in Campionati ed Eventi dei più popolari giochi online su quattro ruote per PC. Insieme discutiamo di gare reali, organizziamo i più epici eventi e sempre insieme insegniamo ai nuovi talenti come crescere e migliorarsi. 
+                        Chiunque può entrare a far parte di Apex Italian Racing, basta avere la voglia di migliorarsi, giocare pulito e soprattutto di VINCERE!
+                    </p> <iframe  src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FApexItalianRacing%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> </div>
+
+                <div class="col-4" align="center"> 
+                    <a href="#">Non sai a chi rivolgerti? CONTATTACI</a>
+
+
 
 <br><br>
 
-                                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FApexItalianRacing%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                            
 
 
                 </div>
-                <div class="col"> ULTIMO VIDEO SU YOUTUBE  <br><br>
+                <div class="col-4"> ULTIMO VIDEO SU YOUTUBE  <br><br>
                     <iframe width="350" height="200" src="https://www.youtube.com/embed/SPg02eSl43Q"" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
        
             </div>
