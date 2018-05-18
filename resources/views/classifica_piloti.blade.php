@@ -98,7 +98,7 @@
 
     <tr>
       <th scope="row" style="background-color: silver">2</th>
-  @include('viewclass.ace91')
+  @include('viewclass.chris91')
     </tr>
 
     <tr>
@@ -108,7 +108,7 @@
 
     <tr>
       <th scope="row">4</th>
-  @include('viewclass.chris91')
+  @include('viewclass.ace91')
     </tr>
 
     <tr>
