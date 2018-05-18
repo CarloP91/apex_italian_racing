@@ -93,7 +93,7 @@
   <tbody>
     <tr>
       <th scope="row" style="background-color: gold">1</th>
-  @include('viewclass.Dominy')
+  @include('Dominy')
     </tr>
 
     <tr>
