@@ -127,7 +127,7 @@
       <th scope="row" style="background-color: silver">2</th>
 <!--Ace91-->
       <td><!--img scuderia--><img src="{{$drivers[1]->img_url_auto}}" style="width: 210px; height: 50px"></td>
-      <td><!--numero pilota-->55</td>
+      <td><!--numero pilota-->25</td>
       <td><!--nome pilota-->  {{$drivers[1]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[1]->australia + $drivers[1]->bahrain + $drivers[1]->china}} </td></td>
       
@@ -159,7 +159,7 @@
       <th scope="row" style="background-color: #cd7f32">3</th>
 <!--Fabiuzz-->
       <td><!--img scuderia--><img src="{{$drivers[2]->img_url_auto}}" style="width: 200px; height: 50px"></td>
-      <td><!--numero pilota-->220</td>
+      <td><!--numero pilota-->96</td>
       <td><!--nome pilota-->  {{$drivers[2]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[2]->australia + $drivers[2]->bahrain + $drivers[2]->china}} </td></td>
       
@@ -189,9 +189,9 @@
 
     <tr>
       <th scope="row">4</th>
-<!--Wilscos-->
+<!--Chris91-->
       <td><!--img scuderia--><img src="{{$drivers[3]->img_url_auto}}" style="width: 200px; height: 50px"></td>
-      <td><!--numero pilota-->20</td>
+      <td><!--numero pilota-->46</td>
       <td><!--nome pilota-->  {{$drivers[3]->name_driver}}</td>
       <td><!--punti totali--> {{$pt = $drivers[3]->australia + $drivers[3]->bahrain + $drivers[3]->china}} </td></td>
       
