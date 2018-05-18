@@ -89,7 +89,7 @@
   <tbody>
     <tr>
       <th scope="row" style="background-color: gold">1</th>
-<!--Dominy-->
+  <!--Dominy-->
       <td><!--img scuderia--><img src="{{$drivers[0]->img_url_auto}}" style="width: 200px; height: 50px"></td>
       <td><!--numero pilota-->10</td>
       <td><!--nome pilota-->  {{$drivers[0]->name_driver}}</td>
@@ -185,7 +185,7 @@
 
     <tr>
       <th scope="row">4</th>
-<!--Fabiuzz-->
+<!--Wilscos-->
       <td><!--img scuderia--><img src="{{$drivers[3]->img_url_auto}}" style="width: 200px; height: 50px"></td>
       <td><!--numero pilota-->20</td>
       <td><!--nome pilota-->  {{$drivers[3]->name_driver}}</td>
@@ -217,52 +217,52 @@
 
     <tr>
       <th scope="row">5</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">6</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">7</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">8</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">9</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">10</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">11</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">12</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">13</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">14</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
@@ -272,27 +272,27 @@
     </tr>
     <tr>
       <th scope="row">16</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">17</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">18</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">19</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
     <tr>
       <th scope="row">20</th>
-      <td><img src="/img/auto2018/Mercedes-F12018.jpg" style="width: 200px; height: 50px"></td>
+      <td><img src="/img/auto2018/Unk-F12018.png" style="width: 200px; height: 50px"></td>
       <td>100</td>
     </tr>
   </tbody>
